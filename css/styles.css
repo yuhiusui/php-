@@ -1,0 +1,180 @@
+
+/*共通*/
+  body {
+    padding: 50px;
+    font-size: 100%;
+    font-family: "Ricky Diminished", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    color: black;
+    background: url(309a769e52fcfdd2d9e1607407c59c24.png);
+    background-size: cover;
+  }
+  a {
+    color: #007edf;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    margin-bottom: 30px;
+    font-size: 100%;
+    color: black;
+    text-align: center;
+  }
+/*共通*/
+
+
+
+
+/*フォーム*/
+  label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 90%;
+  }
+
+  #content,
+  textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 90%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: white;
+  }
+
+  #content {
+    width: 200px;
+  }
+  textarea {
+    width: 50%;
+    max-width: 50%;
+    height: 70px;
+  }
+  #submit {
+    appearance: none;
+    padding: 5px 20px;
+    color: white;
+    font-size: 90%;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+  }
+  #submit:hover,
+  button:hover {
+    background-color: #2392d8;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .success_content {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: green;
+    border-radius: 10px;
+    border: 1px solid green;
+  }
+
+  .error_content {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: red;
+    list-style: none;
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+
+  .success_content,
+  .error_content li {
+    font-size: 90%;
+    line-height: 1.6em;
+  }
+
+  .btn_cancel {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: #555;
+    font-size: 86%;
+    border-radius: 5px;
+    border: 1px solid #999;
+  }
+  .btn_cancel:hover {
+    color: #999;
+    border-color: #999;
+    text-decoration: none;
+  }
+  .delete-confirm {
+    margin-bottom: 20px;
+    font-size: 90%;
+    line-height: 1.6em;
+  }
+/*フォーム*/
+
+
+
+
+/*掲示板*/
+  article {
+    font-family: "851手書き雑フォント";
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: white;
+    opacity: 0.8;
+  }
+  .info {
+    margin-bottom: 10px;
+  }
+  .info h2 {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    line-height: 1.6em;
+    font-size: 90%;
+  }
+  .info p {
+    display: inline-block;
+    line-height: 1.6em;
+    font-size: 90%;
+  }
+  .info time {
+    color: #999;
+    line-height: 1.6em;
+    font-size: 70%;
+  }
+  article p {
+    color: #555;
+    font-size: 90%;
+    line-height: 1.6em;
+  }
+  .underline {
+    border-bottom: 2px dashed #EEEEEE;
+  }
+  .scroll-box{ /*溢れたメッセージのため*/
+    height:700px;
+    overflow-y:scroll;
+  }
+/*掲示板*/
+
+
+
+/*レスポンシブ*/
+  @media only screen and (max-width: 1000px) {
+    body {
+      padding: 30px 15%;
+    }
+
+    #content {
+      width: 100%;
+    }
+    textarea {
+      width: 100%;
+      max-width: 100%;
+      height: 70px;
+    }
+  }
+/*レスポンシブ*/
